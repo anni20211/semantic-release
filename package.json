@@ -2,8 +2,6 @@
   "name": "nextapp",
   "version": "0.1.0",
   "private": true,
-  "branches": ["main"],
-  "repositoryUrl": "https://github.com/anni20211/semantic-release",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
