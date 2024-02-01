@@ -3,8 +3,7 @@ name: semantic-release
 on:
   push:
     branches:
-      - main  # Change to 'main' if that's your default branch
-
+      - master
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -20,7 +19,5 @@ jobs:
         run: npm run build
       - name: Semantic release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Fix typo in the secret name
-        run: |
-          git push --dry-run --no-verify https://${{ secrets.GITHUB_TOKEN }}@github.com/anni20211/semantic-release HEAD:main  # Change 'master' to 'main' if needed
-          npx semantic-release
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release
