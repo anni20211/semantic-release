@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/anni20211/semantic-release/compare/v1.0.0...v1.1.0) (2024-02-01)
+
+
+### Features
+
+* adding new feature ([833e51e](https://github.com/anni20211/semantic-release/commit/833e51eed0cb5cd9f362e283d8f8f415bb66f218))
+
 # 1.0.0 (2024-02-01)
 
 
